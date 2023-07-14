@@ -7,20 +7,13 @@ a {
     text-decoration: none;
 }
 
-.page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Банеры begin */
 
 .banners {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding-top: 97px;
     padding-bottom: 96px;
@@ -32,29 +25,36 @@ a {
     height: 50px;
 }
 
+
+/* Банеры end */
+
+
+/* header begin */
+
 .header {
+    margin-top: 26px;
+    margin-bottom: 48px;
     display: flex;
-    justify-content: center;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 14px;
-    margin-bottom: 21px;
-    margin-left: 18px;
-    margin-right: 12px;
 }
 
 .header_logo {
-    margin-top: 26px;
-    margin-bottom: 48px;
-    margin-left: 59px;
-    margin-right: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.header_logo_img {
+    width: 35px;
+    height: 40px;
+}
+
 .header_title {
-    padding-top: 5px;
-    padding-left: 14px;
+    margin-left: 14px;
     color: #000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
@@ -64,7 +64,6 @@ a {
 }
 
 .header_title2 {
-    padding-top: 5px;
     color: #F25822;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
@@ -74,7 +73,10 @@ a {
 }
 
 .header_menu {
-    margin-left: 346px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
 }
 
 .header_menu_text {
@@ -84,7 +86,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 43px;
 }
 
 .header_menu_text2 {
@@ -94,8 +95,18 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 43px;
 }
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+/* header end */
+
+
+/* body start */
 
 .body_content {
     display: flex;
@@ -171,3 +182,6 @@ a {
     flex-shrink: 0;
     margin-left: 41px;
 }
+
+
+/* body end */
